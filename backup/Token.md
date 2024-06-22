@@ -1,4 +1,4 @@
-`[pragma solidity ^0.8.4;
+pragma solidity ^0.8.4;
 
 // 引入ERC20接口
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
@@ -87,4 +87,4 @@ contract MyToken is IERC20 {
     
     // 发送Approval事件
     event Approval(address indexed owner, address indexed spender, uint256 value);
-}](url)`
+}
